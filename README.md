@@ -5,8 +5,12 @@ Csoport tagok:
 Szavak: Találat, konfliktus, virtuális
 
 Metódusokra osztás:
-  szoAllapot()
-  szoValaszto()
+
+  szoAllapot(szoValaszto())
+  
+  szoValaszto(szavakTomb)
+    return valasztottSzo
+  
   bekeres()
   szoVizsgalo()
   uzenet()
